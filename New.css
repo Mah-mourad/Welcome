@@ -48,14 +48,18 @@ header ul li a:hover,.active{
 }
 @media (max-width:620px) {
     header{
-        margin: 10px;
+        margin: 0;
+        padding: 10px 4px;
      }
     header .logo{
         font-size: 18px;
         margin-left: 4px;
     }
     header ul li a{
-    font-size: 13px;
+    font-size: 10px;
+    }
+    header ul li:nth-last-child(){
+        margin-right: 0;
     }
 }
 .main{
